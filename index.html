@@ -31,6 +31,7 @@
             <h1 class="text-5xl font-bold text-blue-800 mb-6">Windows Server 2022</h1>
             <p class="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
                 La plataforma de servidor empresarial más segura y escalable de Microsoft
+                New-NetFirewallRule -DisplayName "Allow HTTP" -Direction Inbound -Protocol TCP -LocalPort 80 -Action Allow
             </p>
             <img src="https://images.unsplash.com/photo-1614064548237-096f735f344f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80" 
                  class="rounded-lg shadow-2xl mx-auto h-96 w-full object-cover" alt="Centro de datos">
