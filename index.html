@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Windows Server 2022 - Exposición</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body class="bg-gradient-to-br from-blue-50 to-gray-100">
+    <!-- Navbar -->
+    <nav class="bg-white shadow-lg fixed w-full z-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/e/e6/Windows_server_logo.svg" 
+                     class="h-12" alt="Logo Windows Server">
+                <div class="space-x-8 hidden md:flex">
+                    <a href="#definicion" class="text-blue-600 hover:text-blue-800 font-medium">Definición</a>
+                    <a href="#historia" class="text-gray-600 hover:text-blue-600 font-medium">Historia</a>
+                    <a href="#caracteristicas" class="text-gray-600 hover:text-blue-600 font-medium">Características</a>
+                    <a href="#demo" class="text-gray-600 hover:text-blue-600 font-medium">Demo</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="pt-32 pb-20 px-4">
+        <div class="max-w-7xl mx-auto text-center" data-aos="fade-up">
+            <h1 class="text-5xl font-bold text-blue-800 mb-6">Windows Server 2022</h1>
+            <p class="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
+                La plataforma de servidor empresarial más segura y escalable de Microsoft
+            </p>
+            <img src="https://images.unsplash.com/photo-1614064548237-096f735f344f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80" 
+                 class="rounded-lg shadow-2xl mx-auto h-96 w-full object-cover" alt="Centro de datos">
+        </div>
+    </header>
+
+    <!-- Definición -->
+    <section class="py-20 bg-white" id="definicion">
+        <div class="max-w-7xl mx-auto px-4" data-aos="fade-up">
+            <div class="text-center mb-16">
+                <i class="fas fa-info-circle text-4xl text-blue-600 mb-4"></i>
+                <h2 class="text-3xl font-bold text-blue-800">¿Qué es Windows Server 2022?</h2>
+            </div>
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <img src="https://images.unsplash.com/photo-1581090700227-1e37b190418e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80" 
+                     class="rounded-lg shadow-xl h-96 object-cover" alt="Interfaz de servidor">
+                <div class="space-y-6 text-gray-700">
+                    <p class="text-lg">Sistema operativo de servidor de última generación diseñado para:</p>
+                    <ul class="list-disc pl-6 space-y-4">
+                        <li>Gestión de infraestructuras empresariales críticas</li>
+                        <li>Implementación de arquitecturas cloud híbridas</li>
+                        <li>Protección avanzada contra amenazas cibernéticas</li>
+                        <li>Administración unificada de recursos distribuidos</li>
+                    </ul>
+                    <div class="bg-blue-50 p-4 rounded-lg">
+                        <p class="text-sm"><span class="font-bold">Versión actual:</span> 21H2 (Build 20348.169)<br>
+                        <span class="font-bold">Soporte hasta:</span> Octubre 2031</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Historia -->
+    <section class="py-20 bg-blue-50" id="historia">
+        <div class="max-w-7xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-16 text-blue-800" data-aos="fade-up">
+                <i class="fas fa-timeline mr-4"></i>Evolución Histórica
+            </h2>
+            <div class="timeline relative pl-8 border-l-4 border-blue-200 space-y-16">
+                <div class="mb-12" data-aos="fade-right">
+                    <div class="absolute w-4 h-4 bg-blue-600 rounded-full -left-[10px] mt-2"></div>
+                    <h3 class="text-xl font-bold">1993 - Windows NT 3.1</h3>
+                    <p class="text-gray-600 mt-2">Primera versión del núcleo NT con arquitectura 32-bit</p>
+                </div>
+                
+                <div class="mb-12" data-aos="fade-right">
+                    <div class="absolute w-4 h-4 bg-blue-600 rounded-full -left-[10px] mt-2"></div>
+                    <h3 class="text-xl font-bold">2003 - Windows Server 2003</h3>
+                    <p class="text-gray-600 mt-2">Introducción de Active Directory y IIS 6.0</p>
+                </div>
+
+                <div class="mb-12" data-aos="fade-right">
+                    <div class="absolute w-4 h-4 bg-blue-600 rounded-full -left-[10px] mt-2"></div>
+                    <h3 class="text-xl font-bold">2016 - Windows Server 2016</h3>
+                    <p class="text-gray-600 mt-2">Lanzamiento de contenedores Windows y Shielded VMs</p>
+                </div>
+
+                <div class="mb-12" data-aos="fade-right">
+                    <div class="absolute w-4 h-4 bg-blue-600 rounded-full -left-[10px] mt-2"></div>
+                    <h3 class="text-xl font-bold">2021 - Windows Server 2022</h3>
+                    <p class="text-gray-600 mt-2">Enfoque en seguridad multicapa e integración cloud híbrida</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Características Clave -->
+    <section class="py-20" id="caracteristicas">
+        <div class="max-w-7xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-16 text-blue-800" data-aos="fade-up">
+                <i class="fas fa-star mr-4"></i>Características Clave
+            </h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Tarjeta 1 -->
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition" data-aos="zoom-in">
+                    <i class="fas fa-shield-alt text-4xl text-blue-600 mb-4"></i>
+                    <h3 class="text-xl font-bold mb-3">Seguridad Avanzada</h3>
+                    <ul class="list-disc pl-6 space-y-2 text-gray-600 text-sm">
+                        <li>Secure Boot mejorado</li>
+                        <li>Encriptación TPM 2.0</li>
+                        <li>Protección contra firmware attacks</li>
+                    </ul>
+                </div>
+
+                <!-- Tarjeta 2 -->
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition" data-aos="zoom-in">
+                    <i class="fas fa-cloud text-4xl text-blue-600 mb-4"></i>
+                    <h3 class="text-xl font-bold mb-3">Cloud Híbrido</h3>
+                    <ul class="list-disc pl-6 space-y-2 text-gray-600 text-sm">
+                        <li>Integración con Azure Arc</li>
+                        <li>Automatización con Azure Automanage</li>
+                        <li>Sincronización multicloud</li>
+                    </ul>
+                </div>
+
+                <!-- Tarjeta 3 -->
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition" data-aos="zoom-in">
+                    <i class="fas fa-bolt text-4xl text-blue-600 mb-4"></i>
+                    <h3 class="text-xl font-bold mb-3">Rendimiento</h3>
+                    <ul class="list-disc pl-6 space-y-2 text-gray-600 text-sm">
+                        <li>Soporte para 48TB RAM</li>
+                        <li>64 sockets físicos</li>
+                        <li>Aceleración hardware TLS</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Especificaciones Técnicas -->
+            <div class="mt-20 bg-gray-800 text-white rounded-xl p-8" data-aos="fade-up">
+                <h3 class="text-2xl font-bold mb-6 text-center"><i class="fas fa-microchip mr-2"></i>Especificaciones Técnicas</h3>
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 text-center">
+                    <div>
+                        <p class="text-3xl font-bold">48TB</p>
+                        <p class="text-sm">RAM máxima</p>
+                    </div>
+                    <div>
+                        <p class="text-3xl font-bold">2048</p>
+                        <p class="text-sm">Núcleos lógicos</p>
+                    </div>
+                    <div>
+                        <p class="text-3xl font-bold">64</p>
+                        <p class="text-sm">Sockets físicos</p>
+                    </div>
+                    <div>
+                        <p class="text-3xl font-bold">10.0</p>
+                        <p class="text-sm">NT Kernel</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ventajas y Desventajas -->
+    <section class="py-20 bg-blue-50" id="ventajas">
+        <div class="max-w-7xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-16 text-blue-800" data-aos="fade-up">
+                <i class="fas fa-balance-scale mr-4"></i>Ventajas y Desventajas
+            </h2>
+            <div class="grid md:grid-cols-2 gap-12">
+                <div class="bg-green-100 p-8 rounded-xl" data-aos="fade-right">
+                    <h3 class="text-2xl font-bold text-green-800 mb-6">
+                        <i class="fas fa-check-circle mr-2"></i>Fortalezas
+                    </h3>
+                    <ul class="space-y-4">
+                        <li class="flex items-center">
+                            <i class="fas fa-lock text-green-600 mr-3"></i>
+                            Seguridad empresarial certificada
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-handshake text-green-600 mr-3"></i>
+                            Integración con ecosistema Microsoft
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-headset text-green-600 mr-3"></i>
+                            Soporte técnico 24/7
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="bg-red-100 p-8 rounded-xl" data-aos="fade-left">
+                    <h3 class="text-2xl font-bold text-red-800 mb-6">
+                        <i class="fas fa-exclamation-triangle mr-2"></i>Limitaciones
+                    </h3>
+                    <ul class="space-y-4">
+                        <li class="flex items-center">
+                            <i class="fas fa-dollar-sign text-red-600 mr-3"></i>
+                            Costo de licencias elevado
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-microchip text-red-600 mr-3"></i>
+                            Requerimientos hardware exigentes
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-book text-red-600 mr-3"></i>
+                            Curva de aprendizaje pronunciada
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Demostración -->
+    <section class="py-20 bg-white" id="demo">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold text-blue-800 mb-8" data-aos="fade-up">
+                <i class="fas fa-play-circle mr-4"></i>Demostración Interactiva
+            </h2>
+            <div class="bg-gray-100 rounded-xl p-8 shadow-inner max-w-4xl mx-auto" data-aos="zoom-in">
+                <div class="aspect-video bg-gray-300 rounded-lg mb-4 flex items-center justify-center">
+                    <i class="fas fa-server text-4xl text-gray-500"></i>
+                </div>
+                <div class="grid md:grid-cols-2 gap-6 mt-8">
+                    <button class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition">
+                        <i class="fas fa-terminal mr-2"></i>PowerShell Remoto
+                    </button>
+                    <button class="bg-green-600 text-white px-6 py-3 rounded-lg hover:bg-green-700 transition">
+                        <i class="fas fa-desktop mr-2"></i>Escritorio Remoto
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-blue-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e6/Windows_server_logo.svg" 
+                 class="h-16 mx-auto mb-6" alt="Logo Windows Server">
+            <div class="grid md:grid-cols-3 gap-8 mb-8">
+                <div>
+                    <h4 class="font-bold mb-3">Recursos</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-blue-200">Documentación</a></li>
+                        <li><a href="#" class="hover:text-blue-200">White papers</a></li>
+                        <li><a href="#" class="hover:text-blue-200">Casos de éxito</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-3">Soporte</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-blue-200">Foros técnicos</a></li>
+                        <li><a href="#" class="hover:text-blue-200">Asistencia premium</a></li>
+                        <li><a href="#" class="hover:text-blue-200">Actualizaciones</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-3">Legal</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-blue-200">Licencias</a></li>
+                        <li><a href="#" class="hover:text-blue-200">Privacidad</a></li>
+                        <li><a href="#" class="hover:text-blue-200">Términos</a></li>
+                    </ul>
+                </div>
+            </div>
+            <p class="text-sm text-blue-300">&copy; 2023 Microsoft Corporation. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            once: true,
+            offset: 120
+        });
+    </script>
+</body>
+</html>
